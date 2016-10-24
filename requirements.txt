@@ -1,0 +1,8 @@
+Flask==0.10.1
+numpy==1.9.2
+six==1.9.0
+h5py==2.6.0
+cython==0.23.4
+chainer==1.6.0
+Pillow==2.3.0
+
