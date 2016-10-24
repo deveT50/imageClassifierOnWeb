@@ -1,6 +1,0 @@
-[remote "peaceful-inlet-19870"]
-	url = https://git.heroku.com/peaceful-inlet-19870.git
-	fetch = +refs/heads/*:refs/remotes/peaceful-inlet-19870/*
-[remote "heroku"]
-	url = https://git.heroku.com/desolate-everglades-67901.git
-	fetch = +refs/heads/*:refs/remotes/heroku/*
