@@ -24,3 +24,15 @@ sigma.npy			...画像分類に使用する学習時の画像の標準偏差（�
 ※重たいのでリポジトリに含めていませんが、hdf5形式の学習済みモデルのパラメータファイル"modelhdf5"が必要です。学習はMulticlassImageClassifierとして上げているコードで行いました。
 
 
+ローカルデバッグ：
+端末で、
+python save.py
+を実行するとWebサーバが立ち上がるので、http://0.0.0.0:5000/にアクセスする。
+
+Herokuデプロイ：
+HerokuToolbeltが必要
+
+
+
+
+
