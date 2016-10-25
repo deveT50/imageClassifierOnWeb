@@ -26,16 +26,18 @@
   
 ##使用方法
 ローカルデバッグ：  
-1. 端末で、`python save.py`を実行するとWebサーバが立ち上がるので、<http://0.0.0.0:5000/>にアクセスする  
+1. 端末で、`$ python save.py`を実行するとWebサーバが立ち上がるので、<http://0.0.0.0:5000/>にアクセスする  
 2. [Browse...]ボタンで画像を選択する（リサイズ処理を書いていないので256*256pxの画像を選択して下さい）  
 3. [Upload]ボタンで画像をアップロードする  
 4. classifyと書かれたリンクをクリックする  
 5. 分類結果が表示される  
   
 Herokuデプロイ：  
-HerokuToolbeltが必要  
-
-
-
+1. Herokuに登録してHerokuToolbeltをインストール  
+2. 端末から`$ heroku login`でHerokuにログイン  
+3. `$ heroku create`でHerokuにアプリを作成する  
+4. `$ git init`で管理対象にする  
+5. `$ git add .`, `$ git commit -m "first commit"`, `$ git push heroku master`実行  
+6. `$ heroku open`ブラウザでアプリケーションが表示される  
 
 
