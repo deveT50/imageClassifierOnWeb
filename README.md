@@ -26,8 +26,8 @@
   
 ローカルデバッグ：  
 端末で、  
-python save.py  
-を実行するとWebサーバが立ち上がるので、http://0.0.0.0:5000/にアクセスする。  
+`python save.py`  
+を実行するとWebサーバが立ち上がるので、<http://0.0.0.0:5000/>にアクセスする。  
   
 Herokuデプロイ：  
 HerokuToolbeltが必要  
