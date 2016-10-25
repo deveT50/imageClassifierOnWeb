@@ -37,10 +37,11 @@ Herokuデプロイ：
 2. 端末から`$ heroku login`でHerokuにログイン  
 3. `$ heroku create`でHerokuにアプリを作成する  
 4. `$ git init`で管理対象にする  
+5. `$ heroku git:remote -a your-Heroku-AppName`でHerokuAppを紐付け
 5. `$ git add .`, `$ git commit -m "first commit"`, `$ git push heroku master`実行  
 6. `$ heroku open`ブラウザでアプリケーションが表示される  
-  
+※ ソースを修正する際は5.を繰り返す  
   
 ##注意
 * 学習が上手く行っておらず、分類精度が低い
-* Herokuはフリープランでは30分アクセスがないとスリープし、スリープからの復帰時に処理待ちが起こる
+* Herokuはフリープランでは30分アクセスがないとスリープし、スリープからの復帰時に処理待ちがあります
