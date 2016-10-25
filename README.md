@@ -39,5 +39,8 @@ Herokuデプロイ：
 4. `$ git init`で管理対象にする  
 5. `$ git add .`, `$ git commit -m "first commit"`, `$ git push heroku master`実行  
 6. `$ heroku open`ブラウザでアプリケーションが表示される  
-
-
+  
+  
+##注意
+* 学習が上手く行っておらず、分類精度が低い
+* Herokuはフリープランでは30分アクセスがないとスリープし、スリープからの復帰時に処理待ちが起こる
