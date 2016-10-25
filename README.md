@@ -3,7 +3,7 @@
 （flaskを使用したWebアプリケーションとしてchainerを使用した画像分類プログラムを実行する。Heroku上で。）  
   
 主な環境（ローカル）：ubuntu14.04, python2.7, Chainer1.14.0,  
-		（Webサーバ）：flask0.10.1, PaaS:Heroku(フリープラン)  
+		（Webサーバ）：flask0.10.1, Chainer1.6.0, PaaS:Heroku(フリープラン)  
 
 
 * templates			...flaskが使用するHTMLテンプレートファイルを格納  
