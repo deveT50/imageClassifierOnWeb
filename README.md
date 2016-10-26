@@ -21,7 +21,7 @@
 * sigma.npy			...画像分類に使用する学習時の画像の標準偏差（学習時と同じもの）※  
 * modelhdf5			...画像分類に使用するモデルのパラメータファイル（学習時に出力される）※  
   
-※MulticlassImageClassifierとして別途上げているコードで学習を行っています。
+※[MulticlassImageClassifier](https://github.com/deveT50/MulticlassImageClassifier, "多クラス画像分類器")として別途上げているコードで学習を行っています。
   
   
 ##使用方法
